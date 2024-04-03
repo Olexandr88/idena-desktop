@@ -1,13 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import {useRouter} from 'next/router'
-import {
-  Box,
-  Flex,
-  useToast,
-  Divider,
-  useDisclosure,
-  Stack,
-} from '@chakra-ui/react'
+import {Box, Flex, useToast, Divider, useDisclosure} from '@chakra-ui/react'
 import {useTranslation} from 'react-i18next'
 import {useMachine} from '@xstate/react'
 import {
